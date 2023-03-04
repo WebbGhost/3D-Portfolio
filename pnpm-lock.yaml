@@ -6,6 +6,7 @@ specifiers:
   '@react-three/fiber': ^8.11.5
   '@types/react': ^18.0.27
   '@types/react-dom': ^18.0.10
+  '@types/react-vertical-timeline-component': ^3.3.3
   '@vitejs/plugin-react': ^3.1.0
   autoprefixer: ^10.4.13
   framer-motion: ^10.0.1
@@ -15,7 +16,6 @@ specifiers:
   react-dom: ^18.2.0
   react-parallax-tilt: ^1.7.110
   react-router-dom: ^6.8.2
-  react-tilt: ^0.1.4
   react-vertical-timeline-component: ^3.6.0
   tailwindcss: ^3.2.7
   three: ^0.150.1
@@ -32,13 +32,13 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-parallax-tilt: 1.7.110_biqbaboplfbrettd7655fr4n2y
   react-router-dom: 6.8.2_biqbaboplfbrettd7655fr4n2y
-  react-tilt: 0.1.4_biqbaboplfbrettd7655fr4n2y
   react-vertical-timeline-component: 3.6.0_react@18.2.0
   three: 0.150.1
 
 devDependencies:
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
+  '@types/react-vertical-timeline-component': 3.3.3
   '@vitejs/plugin-react': 3.1.0_vite@4.1.4
   autoprefixer: 10.4.13_postcss@8.4.21
   postcss: 8.4.21
@@ -740,6 +740,12 @@ packages:
     dependencies:
       '@types/react': 18.0.28
     dev: false
+
+  /@types/react-vertical-timeline-component/3.3.3:
+    resolution: {integrity: sha512-xmKeQ9TtZLeGtsWQx2im0U79wnC0M2F/FPEAHP7uS3G9SAVgis1XSHzq/mq7XrcbnI9eiZbL7dhiy/TqCuDc7w==}
+    dependencies:
+      '@types/react': 18.0.28
+    dev: true
 
   /@types/react/18.0.28:
     resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==}
@@ -1521,16 +1527,6 @@ packages:
     dependencies:
       '@remix-run/router': 1.3.3
       react: 18.2.0
-    dev: false
-
-  /react-tilt/0.1.4_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-bVeRumg+RIn6QN8S92UmubGqX/BG6/QeQISBeAcrS/70dpo/jVj+sjikIawDl5wTuPdubFH8zH0EMulWIctsnw==}
-    peerDependencies:
-      react: ^15.0.0 || ^16.0.0-beta || ^16.0.0
-      react-dom: ^15.0.0 || ^16.0.0-beta || ^16.0.0
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react-use-measure/2.1.1_biqbaboplfbrettd7655fr4n2y:
